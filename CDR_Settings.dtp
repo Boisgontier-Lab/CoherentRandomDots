@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[]</analog_inputs>
+	<analog_inputs_row_count>0</analog_inputs_row_count>
+	<binary_data>[]</binary_data>
+	<binary_data_defs>[]</binary_data_defs>
+	<blocktable>[['1-11', 2, '', True, 0], 
+		['12-22', 2, '', True, 1]]</blocktable>
+	<blocktable_row_count>50</blocktable_row_count>
+	<code>'CDR'</code>
+	<data_rate>1000</data_rate>
+	<description>''</description>
+	<feedback_mode>3</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>''</instructions_default>
+	<last_modified>'2024-08-06  01:43 PM'</last_modified>
+	<loadtable>[[0.0, 0.0, 0.0, -10.0]]</loadtable>
+	<loadtable_defs>[['Constant A', 'float'], ['Constant B', 'float'], ['Constant C', 'float'], ['Constant D', 'float']]</loadtable_defs>
+	<loadtable_row_count>20</loadtable_row_count>
+	<name>'CDR_Settings'</name>
+	<parent>''</parent>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<save_binary_data>False</save_binary_data>
+	<targetfor_ep>['Robot Origin Midpoint', ['None'], True]</targetfor_ep>
+	<targetfor_exo>('Fingertip', ['Active', 30, 90], True)</targetfor_exo>
+	<targettable>[[-20.0, -40.0, 0.0, 2.0, 2.0, 0.2, '000000000', '255255255', '', 0.0], 
+		[20.0, -40.0, 0.0, 2.0, 2.0, 0.2, '000000000', '255255255', '', 0.0], 
+		[-20.0, -25.0, 0.0, 2.0, 2.0, 0.2, '000000000', '255255255', '', 0.0], 
+		[20.0, -25.0, 0.0, 2.0, 2.0, 0.2, '000000000', '255255255', '', 0.0], 
+		[0.0, -30.0, 0.125, 0.0, 0.0, 0.0, '255255255', '0', '', 0.0], 
+		[0.0, -35.0, 0.0, 0.0, 0.0, 0.0, '255000000', '0', 'Too Slow!', 3.0], 
+		[0.0, -35.0, 0.0, 0.0, 0.0, 0.0, '255255000', '0', 'Time is up!', 3.0]]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Visual radius', 'float'], ['Length', 'float'], ['Height', 'float'], ['Stroke width', 'float'], ['Initial color', 'colour'], ['Stroke color', 'colour'], ['Label Text', 'label'], ['Label Size', 'float']]</targettable_defs>
+	<targettable_row_count>64</targettable_row_count>
+	<tasklevelparams>[['DOT_AREA_RADIUS', '3.50'], 
+		['DOT_DELAY', '800.00'], 
+		['INC_RES', '-0.10'], 
+		['MAX_REACH_TIME', '750.00'], 
+		['NUMBER_OF_DOTS', '108.00'], 
+		['PUSH_BACK', '1.00'], 
+		['RAMP_DURATION', '250.00'], 
+		['RESCALE', '95.00'], 
+		['TIME_OUT', '3000.00'], 
+		['TRIAL_DELAY', '250.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['MAX_REACH_TIME', 'float'], ['TIME_OUT', 'float'], ['TRIAL_DELAY', 'float'], ['DOT_DELAY', 'float'], ['DOT_AREA_RADIUS', 'float'], ['NUMBER_OF_DOTS', 'float'], ['INC_RES', 'float'], ['RESCALE', 'float'], ['PUSH_BACK', 'float'], ['RAMP_DURATION', 'float']]</tasklevelparams_defs>
+	<tasklevelparams_row_count>10</tasklevelparams_row_count>
+	<tptable>[[1, 2, 3, 4, 6, 7, 5, 1, 0.0, 0, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.032, -1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.064, -1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.128, -1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.256, -1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.512, -1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.032, 1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.064, 1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.128, 1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.256, 1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.512, 1, 7.0, 0.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.0, 0, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.032, -1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.064, -1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.128, -1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.256, -1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.512, -1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.032, 1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.064, 1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.128, 1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.256, 1, 7.0, 1.0], 
+		[1, 2, 3, 4, 6, 7, 5, 1, 0.512, 1, 7.0, 1.0]]</tptable>
+	<tptable_defs>[['ND Start Target', 'target'], ['D Start Target', 'target'], ['ND Reach Target', 'target'], ['D Reach Target', 'target'], ['Too Slow Target', 'target'], ['Time Out Target', 'target'], ['Dot Row', 'target'], ['Load Row', 'load'], ['Coherency', 'float'], ['Motion Direction', 'int'], ['Speed', 'float'], ['Increment Trigger', 'float']]</tptable_defs>
+	<tptable_row_count>100</tptable_row_count>
+	<use_repeat_trial_flag>0</use_repeat_trial_flag>
+	<version>3.9</version>
+	<version_tuple>(3, 10)</version_tuple>
+	<video>''</video>
+</task_protocol>
